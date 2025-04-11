@@ -49,13 +49,45 @@ Devstagram es una red social tipo Instagram construida con **Laravel**, donde lo
 
 ---
 
+### ⚙️ Funcionalidades
+- Registro e inicio de sesión de usuarios
+- Creación de publicaciones con imágenes
+- Sistema de "likes"
+- Vistas dinámicas usando Livewire
+- Validaciones personalizadas
+- Panel de usuario con sus publicaciones
+
+---
+
+### 📁 Estructura del Proyecto (Resumen)
+app/
+├── Http/
+│   ├── Controllers/
+│   └── Livewire/
+resources/
+├── views/
+├── css/
+├── js/
+routes/
+└── web.php
+.env.example
+public/
+database/
+
+---
+
+### 💡 Autor
+Desarrollado por Yamil G. Zaracho R. (YamilGZ).
+
+---
+
 ## 📥 Instalación y configuración
 
 Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/tu-usuario/laravel-devstagram.git
+git clone https://github.com/YamilGZ/laravel-devstagram.git
 
 cd laravel-devstagram
 
@@ -78,30 +110,4 @@ php artisan key:generate
 php artisan migrate
 
 # 7. Inicia el servidor de desarrollo
-php artisan serve
-
-## ⚙️ Funcionalidades
-- Registro e inicio de sesión de usuarios
-- Creación de publicaciones con imágenes
-- Sistema de "likes"
-- Vistas dinámicas usando Livewire
-- Validaciones personalizadas
-- Panel de usuario con sus publicaciones
-
-## 📁 Estructura del Proyecto (Resumen)
-app/
-├── Http/
-│   ├── Controllers/
-│   └── Livewire/
-resources/
-├── views/
-├── css/
-├── js/
-routes/
-└── web.php
-.env.example
-public/
-database/
-
-## 💡 Autor
-Desarrollado por Yamil G. Zaracho R. (YamilGZ).
+php artisan serve.
