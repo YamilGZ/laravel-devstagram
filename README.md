@@ -7,11 +7,11 @@ Devstagram es una red social tipo Instagram construida con **Laravel**, donde lo
 ## 🚀 Tecnologías Utilizadas
 
 - 🧬 PHP 8+
-- ⚙️ Laravel 10/11
-- 💾 MySQL o MariaDB
+- ⚙️ Laravel 11
+- 💾 MySQL
 - 🖼️ Tailwind CSS
 - ⚡ Livewire
-- 🔐 Autenticación con Laravel Breeze o Jetstream
+- 🔐 Autenticación con Laravel Breeze
 - 🧠 Eloquent ORM
 - 📦 Composer y NPM
 
