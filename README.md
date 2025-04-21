@@ -47,6 +47,9 @@ Devstagram es una red social tipo Instagram construida con **Laravel**, donde lo
 ### 👤 Perfil de otro Usuario para seguir
 ![Perfil de otro Usuario](screenshots/SeguirOtroUsuarioPage.JPG)
 
+### 📰 Publicacion
+![Publicacion](screenshots/PublicacionPage.JPG)
+
 ---
 
 ### ⚙️ Funcionalidades
